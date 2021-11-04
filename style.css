@@ -1,0 +1,100 @@
+body, #btn-pattern:hover {
+	background-color: #AD8A68;
+	background-image: url("images/brick-wall-dark.png");
+}
+body {
+	color: rgb(230,230,230);
+	font-family:'Raleway', sans-serif;
+	line-height: 1.6;
+	text-align: justify;
+	text-align-last: center;
+ }
+#btn-pattern {
+	padding: 12px 18px;
+	font-size: 15px;
+	color: black;
+	background-color: #F8B430;
+	transition: all 0.3s ease;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: #86AC94;
+	border-width: 1px;
+}
+h1,h2 {
+	font-family: bookman, monospace;
+	margin-top: 0px;
+	text-align: center;
+ }
+h1 {
+    color: #F8B430;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+ }
+h2 {
+	letter-spacing: 2px;
+ }
+a {
+	text-decoration: none;
+	color: #F8B430;
+	font-weight: bold;
+	transition: color 0.3s ease;
+ }
+a:hover, h2 {
+	color: #668F75;
+ }
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+li {
+	font-size: 30px;
+	display: inline;
+}
+#container, .div-bigger, .div-smaller {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+ }
+
+#container {
+	background: white;
+	border: 6px solid #668F75;
+	border-radius: 5px;
+	width: 800px;
+    margin: 50px auto;
+	}
+
+@media (max-width: 760px) {
+	#container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	#container {
+		width: 440px;
+		font-size: 70%;
+	}
+	#btn-pattern {
+		padding: 3px;
+		font-size: 80%;
+	}
+ }
+
+.div-bigger {
+	background: #3B2F20;
+    padding: 40px 60px;
+    margin: 70px;
+    border-radius: 4px;
+ }
+
+img {
+	border-radius: 50%;
+ }
+.div-smaller {
+ 	background: #524236;
+    padding: 50px;
+    margin: 40px 110px;
+    border-radius: 4px;
+
+ }
+#introduction {
+	margin-bottom: 30px;
+}
