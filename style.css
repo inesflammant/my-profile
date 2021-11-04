@@ -1,6 +1,6 @@
 body, #btn-pattern:hover {
 	background-color: #AD8A68;
-	background-image: url("images/brick-wall-dark.png");
+	background-image: url("brick-wall-dark.png");
 }
 body {
 	color: rgb(230,230,230);
